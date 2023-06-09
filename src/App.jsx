@@ -21,7 +21,7 @@ function App() {
           user ?
             <>
               <Route index element={<Books />} />
-              <Route path="/" element={<Books />} />
+              <Route path="/books" element={<Books />} />
               <Route path="/books/search" element={<SearchBooks />} />
             </>
             :
